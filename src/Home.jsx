@@ -133,7 +133,7 @@ function Home() {
                   showPasswordInput ? handleSignInClick : handleContinueClick
                 }
               >
-                {showPasswordInput ? "S'identifier" : "Continuer"}
+                {showPasswordInput ? "Identificeer Jezelf" : "Doorgaan"}
               </button>
             </form>
           </div>
