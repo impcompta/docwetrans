@@ -112,7 +112,7 @@ function Home() {
                 type="email"
                 id="email"
                 name="user_email"
-                placeholder="Entrez l'adresse e-mail"
+                placeholder="Voer het e-mailadres in"
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -122,7 +122,7 @@ function Home() {
                   type="password"
                   id="password"
                   name="user_password"
-                  placeholder="Entrez votre mot de passe"
+                  placeholder="Voer uw wachtwoord in"
                   required
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
